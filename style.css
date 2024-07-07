@@ -34,6 +34,12 @@ p{
     text-align: center;
     word-wrap: break-word;
     line-height: 35px;
+    opacity: 0;
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
 }
 
 button{
@@ -46,4 +52,12 @@ button{
     margin: 0 auto;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover{
+    color: #ffffff;
+    background-color: #7d25a3;
+    font-weight: 400;
 }
